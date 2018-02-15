@@ -4,7 +4,7 @@ def position_taken?(board, index)
   bitem = board[nindex]
   if bitem == "" || bitem == " " || bitem == nil
     return false
-  elseif bitem == "X" || bitem == "O"
+  else
     return true
   end
 end
